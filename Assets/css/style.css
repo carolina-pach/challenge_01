@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*For accesibility purposes changed the class named header to the normal element header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +24,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/*eliminated unecessary selectors such as div*/
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,6 +37,8 @@ header nav {
 ul  {
     list-style-type: none;
 }
+
+/*eliminated unecessary selectors such as div*/
 
 nav li {
     display: inline-block;
@@ -75,6 +79,8 @@ p {
     margin-left: 20px;
 }
 
+/*Avoided repetition by using the .benefit-info class for all content inside of aside */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -97,11 +103,13 @@ p {
 }
 
 
-.benefit-inf img {
+.benefit-info img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*Avoided repetition by using the .information class for all content of the main */
 
 .information {
     margin-bottom: 20px;
@@ -111,7 +119,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*WHY THE THE IMAGE DONT GET AFFECTED*/
+
 .information img {
     max-height: 200px;
 }
@@ -121,6 +129,7 @@ p {
     font-size: 36px;
 }
 
+/*For accesibility purposes changed the class named footer to the normal element footer*/
 footer {
     padding: 30px;
     clear: both;
