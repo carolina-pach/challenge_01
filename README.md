@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-![ A screenshot of the websites header](\Assets\images\READSS1.png)
+![ A screenshot of the websites header](./assets/images/READSS1.png)
 
 ![ screenshot of the websites content](./assets/images/READSS2.png)
 
